@@ -1,0 +1,23 @@
+.bannerContainer {
+	position: relative;
+}
+
+#banner {
+	width: 100%;
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slogan {
+	font-family: 'Merriweather', serif;
+	color: #ffffff;
+	position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
