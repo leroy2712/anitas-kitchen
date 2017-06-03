@@ -5,6 +5,7 @@ body {
 
 .bannerContainer {
 	position: relative;
+	color: #ffffff;
 }
 
 #banner {
@@ -27,13 +28,36 @@ body {
     transform: translate(-50%, -50%);
 }
 
+
+/* subscribe */
 .subscribe {
 	font-family: 'Merriweather', serif;
 	position: absolute;
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: #ffffff;
 }
+
+.formContainer {
+	top: 30%;
+	position: absolute;
+}
+
+button {
+	background-color: #F15A29;
+	border-radius: 1px;
+}
+/* subscribe */
+
+
+/* customers */
+.aboutUs {
+	font-size: 12px;
+}
+/* customers */
+
+
 
 .foodImages {
 	width: 100%;
@@ -75,6 +99,8 @@ body {
 	width: 49%;
 }
 
+
+/* footer */
 #footer {
 	background-color: #F15A29; 
 	color: #ffffff;
@@ -100,3 +126,4 @@ i {
 	bottom: 0;
 	z-index: 2;
 }
+/* footer */
