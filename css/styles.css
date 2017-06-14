@@ -74,9 +74,26 @@ body {
 	margin-right: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	border-right: 1px solid #414141;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-right: 1px solid #b7b7b7;
+	font-family: 'Merriweather', serif;
+	border-bottom: 1px solid #b7b7b7;
+	margin-top: 50px;
+}
+
+.foodMenuLast {
+	color: #414141;
+	background-color: #c1c1c1;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: 'Merriweather', serif;
+	border-bottom: 1px solid #b7b7b7;
+	margin-top: 50px;
 }
 
 .foodMenu {
@@ -86,14 +103,31 @@ body {
 	margin-right: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	border-right: 1px solid #414141;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-right: 1px solid #b7b7b7;
+	font-family: 'Merriweather', serif;
+	border-bottom: 1px solid #b7b7b7;
+	margin-top: 50px;
 }
 
 .fastFoodPictures {
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+#foodNames {
+	color: #F15A29;
+}
+
+#foodsAvailable {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#fastFoodPicturesContainer {
+	background-color: #ffffff;
+	margin-bottom: 50px;
 }
 /*foods*/
 
