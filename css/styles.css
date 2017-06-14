@@ -29,6 +29,89 @@ body {
 }
 
 
+/*food container*/
+#breakfast {
+    background-image: url('../images/foodtop/breakfast.jpg');
+    height: 210px;
+}
+
+#lunch {
+    background-image: url('../images/foodtop/lunch.jpg');
+    height: 210px;
+}
+
+#dinner {
+    background-image: url('../images/foodtop/dinner.jpg');
+    height: 210px;
+}
+
+#happy {
+    text-align: center;
+    width: 105%;
+    padding: 25px;
+    height: 105px;
+}
+
+#party {
+    text-align: center;
+    width: 105%;
+    padding: 25px;
+    background-color: #F15A29;
+    height: 105px;
+}
+
+#mealTime {
+	color: #ffffff;
+	padding-top: 50px;
+}
+/*food container*/
+
+/*foods*/
+.foodMenuSelected {
+	color: #F15A29;
+	background-color: #ffffff;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-right: 1px solid #414141;
+}
+
+.foodMenu {
+	color: #414141;
+	background-color: #c1c1c1;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-right: 1px solid #414141;
+}
+
+.fastFoodPictures {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*foods*/
+
+
+/*customers - about*/
+.customers {
+	box-shadow: 0 0 10px #707070;
+	margin: 50px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.happyCustomers {
+	border-right: 1px solid #ccc;
+}
+/*customers - about*/
+
+
 /* subscribe */
 .subscribe {
 	font-family: 'Merriweather', serif;
@@ -36,24 +119,36 @@ body {
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff;
 }
 
 .formContainer {
-	top: 30%;
-	position: absolute;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -10%;
 }
 
-button {
+#subscribeBtn {
 	background-color: #F15A29;
 	border-radius: 1px;
+	width: 100px;
+	height: 50px;
+	border-color: #F15A29;
+	color: #ffffff;
+}
+
+#email {
+	opacity: 0.5;
+	width: 300px;
+	border-radius: 0px;
+	height: 50px;
 }
 /* subscribe */
 
 
 /* customers */
 .aboutUs {
-	font-size: 12px;
+	font-size: 14px;
 }
 /* customers */
 
@@ -68,7 +163,8 @@ button {
     padding-top: 100px;
 }
 
-/*div3 image borders*/
+
+/*Drinks and Food*/
 #fastFood, #drinks {
 	border: 1px solid #000000;
 	padding: 5px;
@@ -90,14 +186,21 @@ button {
 }
 
 .drinks {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+	
 }
 
-.drinkImages {
-	width: 49%;
+.foodContainers {
+	padding-bottom: 70px;
 }
+
+.foodPictures {
+	box-shadow: 0 0 5px #707070;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/*Drinks and Food*/
 
 
 /* footer */
